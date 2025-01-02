@@ -6,7 +6,7 @@
 #include <pthread.h>
 #include <time.h>
 void usage() {
-    printf("Usage: ./program ip port time threads\n");
+    printf("Usage: ./god ip port time threads\n");
     exit(1);
 }
 struct thread_data {
